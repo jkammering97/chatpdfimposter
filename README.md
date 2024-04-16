@@ -11,8 +11,8 @@
 
 ### Installation
 Install the required package using pip:
-```bash
-pip install requests
+   ```bash
+   pip install requests
 
 ## Quick Start
 
@@ -20,7 +20,7 @@ pip install requests
    Replace placeholders with your values.
 
 * set your api key in a .env file
-
+``` python
 api_key = os.getenv('chatpdfkey')
 pdf_path = 'path'
 pdf = ChatPDF(api_key)
