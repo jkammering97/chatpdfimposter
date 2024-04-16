@@ -13,7 +13,7 @@
 Install the required package using pip:
    ```bash
    pip install requests
-
+   ```
 ## Quick Start
 
 **Initialize the uploader**:
@@ -24,8 +24,7 @@ Install the required package using pip:
 api_key = os.getenv('chatpdfkey')
 pdf_path = 'path'
 pdf = ChatPDF(api_key)
-#%%
 pdf.add_file(pdf_path)
-# %%
 pdf.ask_question(question)
+```
 
