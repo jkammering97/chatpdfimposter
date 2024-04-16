@@ -12,7 +12,7 @@
 ### Installation
 Install the required package using pip:
    ```bash
-   pip install requests
+   pip install -r requirements.txt
    ```
 ## Quick Start
 
